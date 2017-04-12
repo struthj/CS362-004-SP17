@@ -648,8 +648,7 @@ int adventurerCard(int drawntreasure,
                    int currentPlayer,
                    int z,
                    int cardDrawn,
-                   int temphand[]
-                  )
+                   int temphand[])
 {
           while(drawntreasure<1){
 	if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
