@@ -6,27 +6,25 @@
 #include <math.h>
 #include <stdlib.h>
 #include "dominion.c"
-//Smithy Test
-void main(){
 
-    printf("Test 2: Adventurer\n");
+//seaHag test
+void main(){
+    printf("Test 4: Sea Hag\n");
     struct gameState testGame;
     //test hand
     int myKingdomHand[10] = {smithy, sea_hag, outpost, adventurer, salvager, village, minion, mine, baron,embargo};
     int status = initializeGame(2, myKingdomHand, 4, &testGame);
-    int tempHand[10]= {0};
     //assert game initialized correctly
     assert(status == NULL);
-    int treasure = 0;
-    int adventurerResult = adventurerCard(treasure, &testGame,0,0, 0,tempHand);
-    //assert card returned successful result and hand size is 5
-    assert(adventurerResult!= -1);
+    int seaHagResult = seaHagCard(&testGame,0,0);
+    //assert card returned successful result curse is top cardCoins
+    assert(seaHagResult != -1);
+    printf("Check if top card of deck is a curse (top of deck should be equal to 0)\n");
+    assert(testGame.deck[10][testGame.deckCount[10]--] == curse);
     printf("Number of cards in hand %d\n", numHandCards(&testGame));
-    assert(numHandCards(&testGame) == 6);
-    //assert two treasure cards drawn
-    printf("Drawn Treasure %d\n", numHandCards(&testGame));
-    assert(treasure == 2);
+    assert(numHandCards(&testGame) == 5 );
     //Alert user if passed
-    printf("%d returned result (0 expected) Test Passed!\n", adventurerResult);
+    printf("%d returned result (0 expected) Test Passed!\n", seaHagResult);
+
     return 0;
 }
