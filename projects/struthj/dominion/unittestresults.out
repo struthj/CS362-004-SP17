@@ -1,0 +1,156 @@
+Unit Test 2: UpdateCoins
+4 current Coins!
+5 current Coins!
+6 current Coins!
+8 current Coins!
+0 returned result (0 expected) Test Passed!
+Unit Test 3: Shuffle
+4 current Card!
+1 current Card after!
+1 current Card!
+4 current Card after!
+0 returned result (0 expected) Test Passed!
+Unit Test 4: ScoreFor
+2 current Score!
+8 current Score after!
+0 current Score!
+6 current Score after!
+0 returned result (0 expected) Test Passed!
+Test 1: Smithy
+Passed!
+Returned successfl result Passed!
+Number of cards in hand 8
+Failed!
+TEST Failed!
+Test 2: Adventurer
+Passed!
+Returned successfl result Passed!
+Number of cards in hand 6
+Returned successfl result Passed!
+Drawn Treasure 6
+Failed!
+TEST Failed!
+Test 3: Outpost
+%Passed!
+Returned successfl result Passed!
+Check if Outpost has been played (outpost flag should be 1)
+Failed!
+Number of cards in hand 4
+Failed!
+TEST Failed!
+Test 4: Sea Hag
+%Passed!
+Returned successfl result Passed!
+Check if top card of deck is a curse (top of deck should be equal to 0)
+Returned successfl result Passed!
+Number of cards in hand 5
+Returned successfl result Passed!
+0 returned result (0 expected) Test Passed!
+Unit Test 1: WhoseTurn
+0 players turn!
+1 players turn!
+2 players turn!
+0 players turn!
+0 returned result (0 expected) Test Passed!
+Unit Test 2: UpdateCoins
+4 current Coins!
+5 current Coins!
+6 current Coins!
+8 current Coins!
+0 returned result (0 expected) Test Passed!
+Unit Test 3: Shuffle
+4 current Card!
+1 current Card after!
+1 current Card!
+4 current Card after!
+0 returned result (0 expected) Test Passed!
+Unit Test 4: ScoreFor
+2 current Score!
+8 current Score after!
+0 current Score!
+6 current Score after!
+0 returned result (0 expected) Test Passed!
+Test 1: Smithy
+Passed!
+Returned successfl result Passed!
+Number of cards in hand 8
+Failed!
+TEST Failed!
+Test 2: Adventurer
+Passed!
+Returned successfl result Passed!
+Number of cards in hand 6
+Returned successfl result Passed!
+Drawn Treasure 6
+Failed!
+TEST Failed!
+Test 3: Outpost
+%Passed!
+Returned successfl result Passed!
+Check if Outpost has been played (outpost flag should be 1)
+Failed!
+Number of cards in hand 4
+Failed!
+TEST Failed!
+Test 4: Sea Hag
+%Passed!
+Returned successfl result Passed!
+Check if top card of deck is a curse (top of deck should be equal to 0)
+Returned successfl result Passed!
+Number of cards in hand 5
+Returned successfl result Passed!
+0 returned result (0 expected) Test Passed!
+Unit Test 1: WhoseTurn
+0 players turn!
+1 players turn!
+2 players turn!
+0 players turn!
+0 returned result (0 expected) Test Passed!
+Unit Test 2: UpdateCoins
+4 current Coins!
+5 current Coins!
+6 current Coins!
+8 current Coins!
+0 returned result (0 expected) Test Passed!
+Unit Test 3: Shuffle
+4 current Card!
+1 current Card after!
+1 current Card!
+4 current Card after!
+0 returned result (0 expected) Test Passed!
+Unit Test 4: ScoreFor
+2 current Score!
+8 current Score after!
+0 current Score!
+6 current Score after!
+0 returned result (0 expected) Test Passed!
+Test 1: Smithy
+Passed!
+Returned successfl result Passed!
+Number of cards in hand 8
+Failed!
+TEST Failed!
+Test 2: Adventurer
+Passed!
+Returned successfl result Passed!
+Number of cards in hand 6
+Returned successfl result Passed!
+Drawn Treasure 6
+Failed!
+TEST Failed!
+Test 3: Outpost
+%Passed!
+Returned successfl result Passed!
+Check if Outpost has been played (outpost flag should be 1)
+Failed!
+Number of cards in hand 4
+Failed!
+TEST Failed!
+Test 4: Sea Hag
+%Passed!
+Returned successfl result Passed!
+Check if top card of deck is a curse (top of deck should be equal to 0)
+Returned successfl result Passed!
+Number of cards in hand 5
+Returned successfl result Passed!
+0 returned result (0 expected) Test Passed!
