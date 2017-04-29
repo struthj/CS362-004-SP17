@@ -5,10 +5,9 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include "dominion.c"
 
 //unit test 1
-void main(){
+int main(){
     printf("Unit Test 1: WhoseTurn\n");
     struct gameState testGame;
     //test hand

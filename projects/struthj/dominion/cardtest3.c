@@ -5,10 +5,10 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include "dominion.c"
+
 
 //outpost test
-void main(){
+int main(){
     printf("Test 3: Outpost\n");
     int testVal = 0;
     struct gameState testGame;

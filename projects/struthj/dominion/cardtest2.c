@@ -5,9 +5,9 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include "dominion.c"
+
 //Smithy Test
-void main(){
+int main(){
 
     printf("Test 2: Adventurer\n");
     int testVal = 0;
