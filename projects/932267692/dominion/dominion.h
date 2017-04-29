@@ -10,6 +10,13 @@
 
 #define DEBUG 0
 
+/** Simple assert that won't abort on failure, reference: 
+//http://cunit.sourceforge.net/doc/writing_tests.html#tests
+ * Alerts of failure with out abort.
+ */
+#define MY_ASSERT(value) \
+  { CU_assertImplementation((value), __LINE__, #value, __FILE__, "",0); }
+
 
 
 /* http://dominion.diehrstraits.com has card texts */
